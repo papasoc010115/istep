@@ -36,7 +36,7 @@
 import {createClient} from 'https://esm.sh/@supabase/supabase-js@2.57.0';
 const db=createClient('https://gbhbqnbxfbabiouslefz.supabase.co','sb_publishable_CZsFqYnuZooyyvVAn965Og_hJQTQavX');
 const Q=await fetch('/questions.json').then(r=>r.json());const app=document.querySelector('#app'),nav=document.querySelector('#nav');
-let session=null,isStaff=false,page=(location.pathname.replace(/\/$/,'')==='/admin'?'admin':'screen'),step=0,answers={},form={},busy=false,selected=null;
+let session=null,isStaff=false,page=((location.pathname.replace(/\/$/,'')==='/admin'||new URLSearchParams(location.search).get('admin')==='1')?'admin':'screen'),step=0,answers={},form={},busy=false,selected=null;
 const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 function showError(msg){const e=document.querySelector('#message');if(e){e.className='alert';e.textContent=msg}else alert(msg)}
 function navTo(p){if(p==='admin'){location.href='/admin';return}if(location.pathname.replace(/\/$/,'')==='/admin'){location.href='/';return}page=p;selected=null;render();window.scrollTo(0,0)}
