@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Has the child been diagnosed with a learning disability?",
+    "options": [
+      "No",
+      "With ADD/ADHD",
+      "With Dyslexia",
+      "With Dysgraphia",
+      "With Dyscalculia",
+      "With Autism",
+      "With Global Developmental Delay (GDD)",
+      "With Speech and Language Delay",
+      "Auditory Processing Deficit",
+      "Visual Processing Disorder"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 2,
+    "title": "What subject/literacy skills does your child experience having trouble with?",
+    "options": [
+      "None",
+      "Math",
+      "Reading",
+      "Writing",
+      "Spelling"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 3,
+    "title": "Has the child been assessed to have academic learning gaps in his present grade level?",
+    "options": [
+      "No",
+      "No, but I can sense that he is having difficulty coping with his academic subjects in class",
+      "Yes, he lags behind in his academic performance by about a year less than his grade level",
+      "Yes, he lags behind in his academic performance by 1 year",
+      "Yes, he lags behind in his academic performance by more than 2 years"
+    ],
+    "type": "single"
+  },
+  {
+    "id": 4,
+    "title": "Does the child exhibit difficulties in doing physical activities required in and outside class set-up?",
+    "options": [
+      "No",
+      "poor motor skills/ clumsiness in his movements/actions",
+      "Difficulty in hopping, skipping, running",
+      "Difficulty in balancing, e.g. riding a bike",
+      "Poor at following instructions/directions in games/sports"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 5,
+    "title": "Does the child exhibit emotional “seesaws” or problems in his day to day activities at school and at home?",
+    "options": [
+      "No",
+      "Self-imposition of being dumb and stupid in class",
+      "Extreme shyness/too quiet",
+      "Acts as class bully/open picks on his classmates and peers",
+      "Wants to always be the center of attention",
+      "Shuts down, zones out, appears to be daydreaming during class discussions/reading activities",
+      "Seems lazy/takes too long to finish task/timed-test",
+      "Sensitive, easily cries and throws tantrums",
+      "Fidgety/hyperactive (In constant motion or is generally overactive in inappropriate situations)",
+      "Has fear of taking test, would complain of stomachache or headache before or during test time",
+      "Too much dependence on teacher prompting/assistance in every task",
+      "Generally disorganized and often loses his things (books, schools suppliers, etc.)"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 6,
+    "title": "Does the child struggle with assignments and homeworks?",
+    "options": [
+      "No",
+      "complains of difficulty when given homework even if he has not tried reading or understanding it yet",
+      "always give excuses of forgetting his homework",
+      "does not complete any homework given by the teacher"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 7,
+    "title": "Does the child exhibit any of these problems in reading and or language arts?",
+    "options": [
+      "difficulty understanding what was just read",
+      "unable to read the same word later in the day and in another book or next page",
+      "inability to follow multiple instructions",
+      "mispronounces long words, transposes phrases and syllables when speaking",
+      "difficulty putting thoughts into words, speaks in halting phrases",
+      "stutters when reading/leaves sentences incomplete",
+      "difficulty blending sounds into words and sentences",
+      "prefers to read much easier books than most of his age mates",
+      "fatigues easily/experiences extreme tiredness during reading time",
+      "No, he has not been experiencing any of the above conditions"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 8,
+    "title": "Does your child experience the following when during writing tasks?",
+    "options": [
+      "writing shows repetitions,ommissions, reversals and substitution in letters ( b and d, p and q, m and n, i and j etc)",
+      "inability to write in sequence given tasks in patterns ( alphabet, days of the week, months of the year etc.)",
+      "difficulty in spelling even simple words that had been taught repeatedly",
+      "slow and often makes mistakes when writing",
+      "uses inconsistent font sizes (interchangeably uses capital and small letters in writing words)",
+      "difficulty copying from board/appears to be looking up the board much more than his classmates",
+      "complains of fatigue/extreme tiredness when writing",
+      "finds it hard to write and tell time",
+      "is more confident in orally expressing his thoughts rather than putting them off in written form",
+      "No, he has not been experiencing any of the above conditions"
+    ],
+    "type": "multiple"
+  },
+  {
+    "id": 9,
+    "title": "Does the child experience any of the following?",
+    "options": [
+      "excellent long term memory for experiences, locations and faces but poor memory for sequences, facts and information on details that has been recently taught or given",
+      "difficulty in doing literacy tasks( reading and writing) but noticeable engaged in other task such as drawing, dancing, acting, singing and other more creative and practical activities",
+      "difficulty identifying/ confusion with left and right",
+      "No, he has not been experiencing any of the above conditions"
+    ],
+    "type": "multiple"
+  }
+]
